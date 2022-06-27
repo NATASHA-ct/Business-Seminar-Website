@@ -1,0 +1,18 @@
+html {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #191765;
+  color: #f5f5f5;
+}
+
+body {
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
