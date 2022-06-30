@@ -463,7 +463,6 @@ p.questions a {
     gap: 1em;
   }
 
-
   /* bottom nav */
   .bottom-nav {
     justify-content: space-around;
@@ -616,7 +615,6 @@ p.questions a {
   }
 
   /* desktop footer */
-
   .desktop-footer {
     display: flex;
     justify-content: center;

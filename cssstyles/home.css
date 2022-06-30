@@ -380,7 +380,6 @@ a:active {
   display: none;
 }
 
-
 /* -------MEDIA QUERIES---------------------------------- */
 @media screen and (min-width: 768px) {
   .top-nav {
@@ -393,7 +392,6 @@ a:active {
     gap: 1em;
   }
 
-
   /* bottom nav */
   .bottom-nav {
     justify-content: space-around;
@@ -403,7 +401,6 @@ a:active {
   .hamburger-menu {
     display: none;
   }
-
 
   /* nav links */
   .nav-logo-container {
@@ -612,16 +609,13 @@ a:active {
     text-align: left;
   }
 
-
   /* desktop footer */
   .footer {
     display: flex;
     flex-direction: column;
   }
 
-
   /* bottom footer */
-
   .bottom-footer {
     display: flex;
     justify-content: center;
