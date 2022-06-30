@@ -444,8 +444,30 @@ p.questions a {
   display:none;
 }
 
+/*------hover effects----- */
 
-/* ---------------------MEDIA QUERIES---------------------------------- */
+/* mouse over link */
+a:hover {
+  border: 2px solid var(--orange);
+}
+
+/* selected link */
+a:active {
+   border-bottom: 2px solid var(--orange);
+}
+
+/*---hover on images--- */
+.past-img1:hover {
+  border: 2px solid red;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(250%) contrast(0.8);
+}
+
+.past-img2:hover {
+  border: 2px solid red;
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(250%) contrast(0.8);
+}
+
+/* -----------------MEDIA QUERIES---------------------------------- */
 @media screen and (min-width: 768px) {
   .top-nav {
     display: flex;

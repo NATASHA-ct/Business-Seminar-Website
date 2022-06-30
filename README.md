@@ -1,56 +1,42 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# GLOBAL BUSINESS FORUM 
 
-> Description the project.
-
+> The project also involves installation of linters and activating Github Actions.
+> Worked with github flow throughout the project.
+> Made use of Figma platform and templates as design for the project.
+> Implemented the section "Featured speakers" with dynamic HTML.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JavaScript(DOM)
 
-## Live Demo (if available)
+## Live Demo (available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]  ()
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+-Github flow knowledge.
+-Basic CSS and HTML.
+-Installation of files.
+-Use of Figma templates
 
 ### Setup
+-To clone the repository run `[https://github.com/NATASHA-ct/MY-PORTFOLIO.git]` in your terminal
 
 ### Install
+-Set up Github Actions
+-Set up linter > Lighthouse , Webhint ,Stylelint ,
+-Added Eslint
 
-### Usage
+👤 **Author**
 
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@NATASHA-ct]((https://github.com/NATASHA-ct)
+- Twitter: [@NatashaChirombe]
+- LinkedIn: [Natasha Chirombe](linkedin.com/in/natasha-chirombe-1531aa17b)
 
 ## 🤝 Contributing
 
@@ -61,12 +47,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

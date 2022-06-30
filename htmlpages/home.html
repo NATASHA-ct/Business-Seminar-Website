@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../cssstyles/home.css">
-    <script src="../javascript/home.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
     <script src="../javascript/home.js" defer></script>
 
     <title>BUSINESS SEMINAR</title>
@@ -50,19 +54,19 @@
                             </span></a>
                     </div>
 
-                    <li><a class="nav-link" href="#">About</a></li>
+                    <li><a class="nav-link" href="../htmlpages/about.html">About</a></li>
 
-                    <li><a class="nav-link" href="#">Program</a></li>
+                    <li><a class="nav-link" href="#main">Program</a></li>
 
-                    <li><a class="nav-link" href="#contact">Join</a></li>
+                    <li><a class="nav-link" href="../htmlpages/about.html">Join</a></li>
 
-                    <li><a class="nav-link" href="#contact">Sponsor</a>
+                    <li><a class="nav-link" href="#sponsor">Sponsor</a>
                     </li>
 
-                    <li><a class="nav-link" href="#contact">News</a>
+                    <li><a class="nav-link" href="#">News</a>
                     </li>
 
-                    <li><a class="nav-link orange" href="#contact">SPHERE Global</a>
+                    <li><a class="nav-link orange" href="#">SPHERE Global</a>
                     </li>
 
                 </ul>
@@ -88,18 +92,28 @@
 
     </header>
 
-    <main class="main">
-        <section class="program">
+    
 
+    <main class="main" id="main">
+
+        <div class="main-program">
+            <h2 class="prog-heading">
+                Main Program
+            </h2>
+            <hr class="hr-line1">
+        </div>
+
+        <section class="program">
+                    
             <div class="prog-item">
 
                 <img src="../assets/icons/lecture_icon.png" alt="program icon">
 
-                <span>
+                <span class="prog-h3">
                     <h3>Lecture</h3>
                 </span>
 
-                <span>
+                <span class="prog-p">
                     <p>Listen to speakers from renowned influentials youths of our time as they share on how youth can
                         win.</p>
                 </span>
@@ -108,30 +122,30 @@
 
             <div class="prog-item">
                 <img src="../assets/icons/exhibition_icon.png" alt="program icon">
-                <span>
+                <span class="prog-h3">
                     <h3>Exhibition</h3>
                 </span>
-                <span>
+                <span class="prog-p">
                     <p>Let's meet the creations of enterpreneurs from various fields as they share their products.</p>
                 </span>
             </div>
 
             <div class="prog-item">
                 <img src="../assets/icons/forum_icon.png" alt="program icon">
-                <span>
+                <span class="prog-h3">
                     <h3>Forum</h3>
                 </span>
-                <span>
+                <span class="prog-p">
                     <p>We have time to share our thoughts and opinions with experts by topic.</p>
                 </span>
             </div>
 
             <div class="prog-item">
                 <img src="../assets/icons/workshop_icon.png" alt="program icon">
-                <span>
+                <span class="prog-h3">
                     <h3>Workshop</h3>
                 </span>
-                <span>
+                <span class="prog-p">
                     <p>You can create your own creations using open source instead of just looking at them.</p>
                 </span>
             </div>
@@ -140,25 +154,29 @@
 
                 <img src="../assets/icons/ignite.png" alt="">
 
-                <span>
+                <span class="prog-h3">
                     <h3>Dinner</h3>
                 </span>
-                <span>
+                <span class="prog-p">
                     <p>Get opportunities to network with the guest and other enterpreneurs.Nice dinner ready for you
                         after the forum.</p>
                 </span>
             </div>
-
+                 
             <div class="orange-prgitem">
-                <h3>JOIN INNOVATIVE Entrepreneurship
-                    GLOBAL FORUM
+                <h3>Join Sphere
+                    Global Forum
                     2022</h3>
             </div>
 
-        </section>
+         </section>
+
+        <div class="prog-link">
+        <a href="#">SEE THE WHOLE PROGRAM</a>
+        </div>
 
         <div class="main-speaker">
-            <h2 class="main-speaker">Main Speakers</h2>
+            <h2 class="main-speakerhdg">Featured Speakers</h2>
             <hr class="hr-line1">
         </div>
         <section class="speakers">
@@ -168,21 +186,46 @@
     </main>
 
     <footer class="footer">
-        <div class="sponsors">
-            <h2>Sponsors</h2>
-        </div>
-        <ul class="sponsor-name">
-            <li><a href="#">Google</a></li>
-            <li><a href="#">Mozilla</a></li>
-            <li><a href="#">AirBnB</a></li>
-            <li><a href="#">Kakao</a></li>
-            <li><a href="#">Naver</a></li>
-        </ul>
-        <div class="bottom-footer">
-            <div></div>
-            <p>Original work is from Cindy Shin,<br>
-                Creative Commons Some Rights Reserved</p>
-        </div>
+            <div class="top-footer" id="sponsor">
+                <div class="sponsors">
+                    <h2>Sponsors</h2>
+                    <hr class="hr-line1">
+                </div>
+                <ul class="sponsor-list1">
+                    <li><a class="sponsor-link one" href="#">mozilla</a></li>
+        
+                    <li><a class="sponsor-link two" href="#">Google</a></li>
+        
+                    <li><a class="sponsor-link three" href="#">NAVER</a></li>
+                </ul>
+        
+                <ul class="sponsor-list2">
+        
+                    <li><a class="sponsor-link four" href="#">daumkakao</a></li>
+        
+                    <li><a class="sponsor-link five" href="#">
+                            <span class="iconify" data-icon="arcticons:airbnb"
+                                style="color: rgba(177, 177, 181, 0.47058823529411764);" data-width="40"
+                                data-height="45"></span>
+                            airbnb</a>
+                    </li>
+        
+        
+                </ul>
+            </div>
+            <div class="bottom-footer">
+                <span class="footer-logo-container">
+                    <img class="footer-logo" src="../assets/logos/headerlg.png" alt="seminar logo">
+                    <span class="logo-namefooter">
+                        <p>SPHERE </p>
+                        <p>Global Seminar</p>
+                    </span>
+                </span>
+                <p>Original work is from Natasha Chirombe!<br>
+                    SPHERE Global 2022 Some Rights Reserved
+                </p>
+            </div>
+                            
     </footer>
 
 </body>
