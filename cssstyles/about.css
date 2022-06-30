@@ -1,11 +1,17 @@
+/* font declarations */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Fira+Sans:ital,wght@1,500&family=Heebo&family=League+Gothic&family=Montserrat:wght@800&family=Poppins:wght@300&display=swap');;
+
+
+
 html {
   width: 100%;
   box-sizing: border-box;
-  color: #272A31;
+  color: #272a31;
 }
 
 body {
   width: 100%;
+  font-family: 'Lato', sans-serif;
 }
 
 *,
@@ -17,38 +23,38 @@ body {
 }
 
 :root {
-  --black: #272A31;
+  --black: #272a31;
   --orange: #ec5242;
-  --grey:#d3d3d3;
+  --grey: #d3d3d3;
+  --textgrey: grey;
 }
 
 /* body { background-color: var(--blue); } */
+
 /* ---------------HEADER-------------- */
-.header{
-    width:100%;
+.header {
+  width: 100%;
 }
 
-.nav-container{
-    width:100%
+.nav-container {
+  width: 100%;
 }
 
 /* top nav */
-.top-nav{
-   display:none;
-   
+.top-nav {
+  display: none;
 }
 
 /* bottom nav */
 
-.bottom-nav{
-    display:flex;
-    justify-content:flex-start;
-            
+.bottom-nav {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* hamburger */
 
-.hamburger-menu{
+.hamburger-menu {
   display: block;
   width: 35px;
   height: 40px;
@@ -61,7 +67,7 @@ body {
 
 .hamburger-menu span {
   display: block;
-  background-color:var(--black);
+  background-color: var(--black);
   width: 30px;
   height: 4px;
   margin: 6.5px auto;
@@ -69,29 +75,29 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-/* nav container */
-.nav-logo-container{
-    display:none;
+/* nav logo container */
+.nav-logo-container {
+  display: none;
 }
 
 /* nav links to other pages */
-.close-icon  {
+.close-icon {
   display: flex;
   text-align: left;
   justify-content: end;
   margin-right: 10%;
- }
-
-li{
-    list-style: none;
 }
 
-a{
-  color:var(--black);
-  text-decoration: none;  
+li {
+  list-style: none;
 }
 
-.nav-list{
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.nav-list {
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -108,117 +114,383 @@ a{
   transform: translateX(0%);
 }
 
-.nav-link{
+.nav-link {
   text-decoration: none;
-  /* font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 20px; */
-
 }
 
-  .nav-link.orange{
-    color: var(--orange);
-    border:3px solid var(--orange);
-    padding:0.4em;
+.nav-link.orange {
+  color: var(--orange);
+  border: 3px solid var(--orange);
+  padding: 0.4em;
+}
+
+/* -------introduction section---- */
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-image: url("../assets/background/introbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 1.3em;
+  color: var(--orange);
+  padding-top: 40px;
+  text-align: center;
+  width: 80%;
+}
+
+.subtitle {
+  font-family: 'Alegreya Sans', sans-serif;
+  
+  color: var(--orange);
+  font-size: 2em;
+  text-align: center;
+  width: 80%;
+}
+
+.description {
+  color: var(--textgrey);
+  line-height: 1.6;
+  border: solid 4px #fff;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  padding: 5px;
+  background-color: #fff;
+  width: 90%;
+  font-size: 0.7em;
+  font-weight: 500
+}
+
+.questions {
+  width: 90%;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: 300;
+  color: var(--textgrey);
+  padding-bottom: 20px;
+}
+
+p.questions a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* -----MAIN ABOUT----- */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  width: 100%;
+}
+
+.main-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding-bottom: 20px;
+}
+
+.main-heading {
+  color: var(--black);
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 700;
+}
+
+.hr-line1 {
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 1px;
+  width: 10%;
+  border: none;
+  background-color: var(--orange);
+}
+
+.about-descr1 {
+  text-align: center;
+  font-weight: 400;
+  color: var(--textgrey);
+  padding: 20px;
+}
+
+.new-logo-container {
+  display: flex;
+  padding: 30px 38px;
+  border: 0.5px solid var(--grey);
+  border-radius: 2%;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.new-logo {
+  height: 75px;
+  margin-right: 0.5em;
+  border-radius: 40%;
+  text-align: right;
+}
+
+.logo-newname {
+  font-family: 'League Gothic', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 2.6em;
+}
+
+.hr-mainabout {
+  width: 100%;
+  height: 1px;
+  background-color: var(--grey);
+  border: none;
+  margin: 40px 0;
+}
+
+/* ---View past Global--- */
+
+.about-infor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--black);
+}
+
+.view-descrip {
+  margin: 20px;
+  color: var(--textgrey);
+  font-weight: 400;
+}
+
+.past-forum {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 30px 0;
+  gap: 15px;
+  width: 80%;
+}
+
+.past-img1{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  background-image: url("../assets/background/2018forum.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:200px;
+  border:1px solid rgb(39 42 49 / 10%);
+  filter: brightness(50%)
+  
+}
+
+
+.past-heading1{
+   font-size: 1.9em;
+   color: rgb(255, 255, 255);
+   font-weight: 700;
+}
+
+.past-desp1{
+   color: #fff;
+   font-weight: 700;
+}
+
+
+.past-img2{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  background-image: url("../assets/background/2020forum.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  filter: brightness(50%);
+    
+}
+
+.past-heading2{
+   position: relative;
+   font-size: 1.9em;
+   color: #fff;
+   font-weight: 700;
+   
+}
+
+.past-desp2{
+   position: relative;
+   color: #fff;
+   font-weight: 700;
+    
+}
+
+/* ---FOOTER---- */
+.top-footer{
+  background-color: var(--black);
+  padding-top: 10px;
+ 
   }
 
-  /* -------introduction section----*/
-.intro-section{
-    display: flex;
-    flex-direction: column;
-    padding-left: 25px;
-    background-image: url("../assets/background/introbg.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-    padding-top:10px;
-    padding-bottom:70px;
+.sponsors {
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: var(--black) !important;
+  }
+
+  .sponsor-list1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    padding-top: 0;
+    color: #b1b1b578;
+    background-color: var(--black) !important;
+    height: 50px;
+  }
+
+.sponsor-list2{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    padding-top: 0;
+    color: #b1b1b578;
+    background-color: var(--black) !important;
+    height: 50px;
 }
 
-.title{
-    font-weight: 400;
-    font-size: 1.3em;
-    color:var(--orange);
-    padding-top: 40px;
+ .sponsor-link {
+  color: #b1b1b578;
+  font-size: 40px;
 }
 
-.subtitle{
-   font-weight: 700;
-   color:var(--orange);
-   font-size: 2em; 
+.sponsor-link.one {
+  font-family: 'Fira Sans', sans-serif;
 }
 
-.description{
-    line-height: 1.6;
-    border: solid 4px #fff;
-    margin-top: 10px;
-    padding: 5px;
-    background-color: #f5f6f6;
+.sponsor-link.two {
+  font-family: 'Poppins', sans-serif;
 }
 
-.day{
+.sponsor-link.three{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sponsor-link.four {
+  font-family: 'Heebo', sans-serif;
+}
+
+.sponsor-link.five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2px;
+  text-align: center;
+}
+
+/* bottom footer */
+
+.bottom-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  width: 100%;
+  gap:20px
+ 
+}
+
+.footer-logo-container {
+  display: flex;
+  border: 1px solid var(--grey/10%);
+
+  }
+
+.footer-logo {
+    height: 35px;
+    margin-right:2px;
+    border-radius: 40%;
+  }
+
+.logo-namefooter p {
+    font-family: 'League Gothic', sans-serif;
     font-weight: 700;
-    margin-bottom: 10px;
-    text-align: left;
-    padding-top: 20px;
+    font-size: 0.8em;
+  }
+
+.bottom-footer p{
+  font-size: small;
 }
 
-.venue{
-    font-weight: 300;
-    padding-bottom: 20px;
-    text-align: left;
+.desktop-footer{
+  display:none;
 }
 
 
 /* ---------------------MEDIA QUERIES---------------------------------- */
-@media screen and (min-width: 768px){
-
-.top-nav {
-    display:flex;
+@media screen and (min-width: 768px) {
+  .top-nav {
+    display: flex;
     justify-content: flex-end;
     background-color: var(--black);
     color: var(--grey);
     padding: 12px;
-    padding-right:48px;
-    gap:1em;
-}
+    padding-right: 48px;
+    gap: 1em;
+  }
 
 
-/* bottom nav */
-.bottom-nav{
-    justify-content:space-around;
-    height:100px;
-  
-}
-.hamburger-menu{
-    display:none;
-   }
+  /* bottom nav */
+  .bottom-nav {
+    justify-content: space-around;
+    height: 100px;
+  }
 
+  .hamburger-menu {
+    display: none;
+  }
 
-/* nav links */
-.nav-logo-container{
-    display:flex;
-    padding-left:30px;
+  /* nav links */
+  .nav-logo-container {
+    display: flex;
+    padding-left: 30px;
     padding-top: 38px;
-    
-}
+  }
 
-.nav-logo{
-    height:35px;
-    margin-right:0.5em;
-}
+  .nav-logo {
+    height: 35px;
+    margin-right: 0.5em;
+    border-radius: 40%;
+  }
 
-.logo-name p{
-    font-family: sans-serif;
-}
+  .logo-name p {
+    font-weight: 400;
+    font-family: 'League Gothic', sans-serif;
+  }
 
-.close-icon {
-  display: none;
- 
-}
+  .close-icon {
+    display: none;
+  }
 
-.nav-list{
+  .nav-list {
     position: relative;
     display: flex;
     transform: translateX(10px);
@@ -230,20 +502,153 @@ a{
     list-style: none;
     transition: 0;
     gap: 1.5em;
-
   }
 
-  .nav-link.orange{
+  .nav-link.orange {
     color: var(--orange);
-    border:3px solid var(--orange);
-    padding:0.4em;
+    border: 3px solid var(--orange);
+    padding: 0.4em;
   }
 
-/* -------introduction section----*/
-.intro-section{
+  /* -------introduction section---- */
+  .intro-section {
     display: flex;
     flex-direction: column;
-    padding-left: 70px;
+    padding-top: 40px;
+    margin: 0 auto;
+  }
 
+  .hr-subtitle{
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 1px;
+    width: 3%;
+    border: none;
+    background-color: var(--orange);
+  }
+
+  .title {
+    display: none;
+  }
+
+  .subtitle {
+    color: var(--orange);
+    font-size: 2em;
+    text-align: center;
+    width: 70%;
+  }
+
+  .description {
+    text-align: center;
+    line-height: 1.6;
+    border: solid 4px #fff;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 5px;
+    background-color: #fff;
+    width: 60%;
+  }
+
+  .questions {
+    color: grey;
+    width: 90%;
+    text-align: center;
+    font-weight: 400;
+  }
+
+ .q-link {
+    font-weight: bold;
+    text-decoration: underline;
+   }
+
+  /* -----MAIN ABOUT----- */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 20px;
+  }
+
+ .main-heading {
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 700;
 }
+
+ .about-descr1 {
+    padding: 20px;
+  }
+
+  .about-infor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+/* past forums */
+  .past-forum{
+    flex-direction: row;
+    width:100%;
+}
+
+ /*--- footer---- */
+ .top-footer{
+  display: none;
+ }
+
+  .bottom-footer {
+    display: none;
+  }
+
+  /* desktop footer */
+
+.desktop-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  width: 100%;
+  gap:20px;
+  background-color:var(--black) ;
+ 
+}
+
+.desfooter-logo-container {
+  display: flex;
+  align-items: center;
+  gap:7px;
+}
+
+.desfooter-logo {
+    height: 35px;
+    margin-right:2px;
+    border-radius: 40%;
+  }
+
+
+.deslogo-namefooter p {
+    font-family: 'League Gothic', sans-serif;
+    color:#fff !important;
+    font-weight: 300;
+    font-size: 1.8em;
+  }
+
+.desktop-footer p{
+  font-size:0.7em;
+  font-weight:bolder;
+  color: var(--textgrey);
+   
+}
+
 }
