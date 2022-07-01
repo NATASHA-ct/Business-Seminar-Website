@@ -30,8 +30,8 @@ const speakerDetails = [
   {
     speakerclass: 'profile',
     speakerid: 'speaker1',
-    speakerbg: '../assets/speakers/chess.png',
-    speakerimage: '../assets/speakers/oprah.jpg',
+    speakerbg: './assets/speakers/chess.png',
+    speakerimage: './assets/speakers/oprah.jpg',
     speakername: 'Oprah Gail Winfrey',
     firstintro:
       'Oprah Winfrey an American talk  , actress, author, and philanthropist.',
@@ -42,8 +42,8 @@ const speakerDetails = [
   {
     speakerclass: 'profile',
     speakerid: 'speaker2',
-    speakerbg: '../assets/speakers/chess.png',
-    speakerimage: '../assets/speakers/Dangote.jpg',
+    speakerbg: './assets/speakers/chess.png',
+    speakerimage: './assets/speakers/Dangote.jpg',
     speakername: 'Aliko Dangote',
     firstintro:
       'He is a billionaire business magnate.CEO of the Dangote Group.',
@@ -53,8 +53,8 @@ const speakerDetails = [
   {
     speakerclass: 'profile see-more',
     speakerid: 'speaker3',
-    speakerbg: '../assets/speakers/chess.png',
-    speakerimage: '../assets/speakers/gates.jpg',
+    speakerbg: './assets/speakers/chess.png',
+    speakerimage: './assets/speakers/gates.jpg',
     speakername: 'Bill Gates',
     firstintro:
       'He is business magnate philanthropist and co-founder of Microsoft',
@@ -65,8 +65,8 @@ const speakerDetails = [
   {
     speakerclass: 'profile see-more',
     speakerid: 'speaker4',
-    speakerbg: '../assets/speakers/chess.png',
-    speakerimage: '../assets/speakers/masiyiwa.jpg',
+    speakerbg: './assets/speakers/chess.png',
+    speakerimage: './assets/speakers/masiyiwa.jpg',
     speakername: 'Strive Masiyiwa',
     firstintro: 'Founder of the international technology group Econet Global',
     secondintro:
@@ -76,8 +76,8 @@ const speakerDetails = [
   {
     speakerclass: 'profile see-more',
     speakerid: 'speaker5',
-    speakerbg: '../assets/speakers/chess.png',
-    speakerimage: '../assets/speakers/diane.jpg',
+    speakerbg: './assets/speakers/chess.png',
+    speakerimage: './assets/speakers/diane.jpg',
     speakername: 'Diane Marie Hendricks',
     firstintro:
       'She is billionaire businesswoman and film producer from Wisconsin.',
@@ -87,8 +87,8 @@ const speakerDetails = [
   {
     speakerclass: 'profile see-more',
     speakerid: 'speaker6',
-    speakerbg: '../assets/speakers/chess.png',
-    speakerimage: '../assets/speakers/mars.jpg',
+    speakerbg: './assets/speakers/chess.png',
+    speakerimage: './assets/speakers/mars.jpg',
     speakername: 'Jacqueline Mars',
     firstintro: 'She is an American billionaire heiress and businesswoman. ',
     secondintro: 'She has served on several boards.',
