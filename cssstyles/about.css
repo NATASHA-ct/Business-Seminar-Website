@@ -127,7 +127,7 @@ a {
   flex-direction: column;
   width: 100%;
   align-items: center;
-  background-image: url("/assets/background/introbg.png");
+  background-image: url(/assets/background/introbg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10px;
@@ -290,7 +290,7 @@ p.questions a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("/assets/background/2018forum.jpg");
+  background-image: url(/assets/background/2018forum.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -314,7 +314,7 @@ p.questions a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("/assets/background/2020forum.jpg");
+  background-image: url(/assets/background/2020forum.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
