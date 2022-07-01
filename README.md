@@ -20,7 +20,7 @@
 
 ## Live Demo (available)
 
-[Live Demo Link]  ()
+[Live Demo Link](https://natasha-ct.github.io/Business-Seminar-Website/)
 
 
 ### Prerequisites
