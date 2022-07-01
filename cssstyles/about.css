@@ -160,7 +160,7 @@ a {
   padding: 5px;
   background-color: #fff;
   width: 90%;
-  font-size: 0.7em;
+  font-size: 1.0em;
   font-weight: 500;
 }
 
@@ -476,8 +476,9 @@ p.questions a {
   /* nav links */
   .nav-logo-container {
     display: flex;
-    padding-left: 30px;
+    justify-content: center;
     align-items: center;
+    padding-left: 30px;
   }
 
   .nav-logo {
@@ -487,8 +488,9 @@ p.questions a {
   }
 
   .logo-name p {
-    font-weight: 400;
-    font-family: 'League Gothic', sans-serif;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.1em;
   }
 
   .close-icon {
