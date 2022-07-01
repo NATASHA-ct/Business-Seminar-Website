@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&family=Fira+Sans:ital,wght@1,500&family=Heebo&family=League+Gothic&family=Montserrat:wght@800&family=Open+Sans:wght@800&family=Poppins:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 html {
   width: 100%;
@@ -143,7 +144,8 @@ a {
 }
 
 .subtitle {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 800;
   font-weight: 700;
   color: var(--orange);
   font-size: 2em;
@@ -160,7 +162,8 @@ a {
 }
 
 .day {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 500;
   margin-bottom: 10px;
   text-align: left;
   padding-top: 20px;
@@ -316,8 +319,10 @@ a {
 }
 
 .details h3 {
-  font-size: 1em;
-  font-weight: bolder;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #575757;
 }
 
 .hr-2 {
@@ -411,14 +416,14 @@ a:active {
   }
 
   .nav-logo {
-    height: 35px;
+    height: 45px;
     margin-right: 0.5em;
     border-radius: 40%;
   }
 
   .logo-name p {
-    font-family: sans-serif;
-    font-weight: 700;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: 100;
     font-size: 1.1em;
   }
 
