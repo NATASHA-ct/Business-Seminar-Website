@@ -127,7 +127,7 @@ a {
   flex-direction: column;
   width: 100%;
   align-items: center;
-  background-image: url(/assets/background/introbg.png);
+  background-image: url("../assets/background/introbg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10px;
