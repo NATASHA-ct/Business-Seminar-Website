@@ -188,7 +188,7 @@ a {
   width: 100%;
   text-align: center;
   background-color: var(--black);
-  background-image: url(/assets/background/programbg.png);
+  background-image: url("/assets/background/programbg.png");
 }
 
 .prog-heading {
@@ -201,7 +201,7 @@ a {
 
 .program {
   background-color: var(--black);
-  background-image: url(/assets/background/programbg.png);
+  background-image: url("/assets/background/programbg.png");
   padding: 10px;
 }
 
@@ -498,7 +498,7 @@ a:active {
     width: 100%;
     text-align: center;
     background-color: var(--black);
-    background-image: url(/assets/background/programbg.png);
+    background-image: url("/assets/background/programbg.png");
     padding-top: 40px;
     padding-bottom: 80px;
   }
