@@ -2,7 +2,7 @@
 
 # GLOBAL BUSINESS FORUM WEBSITE
 
-Business-Seminar-Website with information about dates , speakers, tickets, attendance location. It will help people to be productive at work while still having a life outside of it.
+Business-Seminar-Website that provides information about the event, including the dates, speakers, tickets, and attendance location. The goal of the seminar is to help people be productive at work while still maintaining a healthy work-life balance.
 
 ## Acknowledgment
   >Cindy Shin
