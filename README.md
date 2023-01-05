@@ -2,10 +2,7 @@
 
 # GLOBAL BUSINESS FORUM WEBSITE
 
-> The project also involves installation of linters and activating Github Actions.
-> Worked with github flow throughout the project.
-> Made use of Figma platform and templates as design for the project.
-> Implemented the section "Featured speakers" with dynamic HTML.
+Business-Seminar-Website with information about dates , speakers, tickets, attendance location. It will help people to be productive at work while still having a life outside of it.
 
 ## Acknowledgment
   >Cindy Shin
